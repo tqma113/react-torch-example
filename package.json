@@ -1,0 +1,25 @@
+{
+  "name": "react-torch-example",
+  "version": "1.0.0",
+  "description": "Example of react torch.",
+  "private": true,
+  "scripts": {
+    "dev": "torch dev",
+    "build": "torch build",
+    "start": "torch start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tqma113/react-torch-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tqma113/react-torch-example/issues"
+  },
+  "homepage": "https://github.com/tqma113/react-torch-example#readme",
+  "dependencies": {
+    "react-torch": "^1.0.8"
+  }
+}
