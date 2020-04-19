@@ -1,5 +1,5 @@
 import React from 'react'
-import { Currings } from '../../../store'
+import { Currings } from 'react-torch/store'
 import { State, Actions } from './Model'
 
 type Props = {
