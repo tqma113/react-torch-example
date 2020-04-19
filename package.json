@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/tqma113/react-torch-example#readme",
   "dependencies": {
-    "react-torch": "^1.0.11"
+    "react-torch": "^1.0.12"
   }
 }
