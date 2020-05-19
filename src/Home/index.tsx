@@ -1,4 +1,7 @@
+import React from 'react'
+import { createPage } from 'react-torch/page'
 import { createStore } from 'react-torch/store'
+import type { Currings } from 'react-torch/store'
 
 export type State = {
   count: number
@@ -33,4 +36,15 @@ const actions = {
 
 const store = createStore(initialState, actions)
 
-export default store
+type Props = {
+  state: State,
+  actions: Currings<State, Actions>
+}
+
+function View ({ state, actions }: Props) {
+  return <div>Home {state.count} <button onClick={() => actions.INCREASE()}>Increate</button></div>
+}
+
+const Home = createPage(View, store)
+
+export default Home
