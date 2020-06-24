@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "torch dev",
     "build": "torch build",
-    "start": "torch start"
+    "start": "torch start",
+    "torch": "torch"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,7 @@
     "@types/react-dom": "^16.9.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-torch": "^1.1.1",
+    "react-torch": "^1.2.0",
     "typescript": "^3.9.3"
   }
 }

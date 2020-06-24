@@ -2,13 +2,13 @@ import React from 'react'
 import { createPage } from 'react-torch/page'
 import { createStore } from 'react-torch/store'
 
+export default createPage((history, context) => {
 
-const About = createPage(
-  () => {
-    console.log('about update')
-    return <div>about</div>
-  },
-  createStore({}, {})
-)
-
-export default About
+  return [
+    () => {
+      console.log('about update')
+      return <div>about</div>
+    },
+    createStore({}, {})
+  ]
+})

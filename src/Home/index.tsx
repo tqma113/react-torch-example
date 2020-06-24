@@ -36,15 +36,12 @@ const actions = {
 
 const store = createStore(initialState, actions)
 
-type Props = {
-  state: State,
-  actions: Currings<State, Actions>
-}
-
-function View ({ state, actions }: Props) {
+function View () {
+  const state = store.state
+  const actions = store.actions
   return <div>Home {state.count} <button onClick={() => actions.INCREASE()}>Increate</button></div>
 }
 
-const Home = createPage(View, store)
+const Home = createPage(() => [View, store])
 
 export default Home
