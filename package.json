@@ -7,7 +7,8 @@
     "dev": "torch dev",
     "build": "torch build",
     "start": "torch start",
-    "help": "torch --help"
+    "help": "torch --help",
+    "version": "torch --version"
   },
   "repository": {
     "type": "git",
