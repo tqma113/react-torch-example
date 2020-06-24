@@ -1,7 +1,6 @@
 import React from 'react'
 import { createPage } from 'react-torch/page'
 import { createStore } from 'react-torch/store'
-import type { Currings } from 'react-torch/store'
 
 export type State = {
   count: number
