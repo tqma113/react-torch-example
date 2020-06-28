@@ -26,7 +26,7 @@
     "@types/react-dom": "^16.9.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-torch": "^1.2.0",
+    "react-torch": "^1.3.2",
     "typescript": "^3.9.3"
   }
 }
