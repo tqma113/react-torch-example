@@ -1,6 +1,7 @@
 import React from 'react'
 import { createPage } from 'react-torch/page'
 import { createStore } from 'react-torch/store'
+import { useWillCreate, useDidMount } from 'react-torch/hook'
 
 export type State = {
   count: number
@@ -41,6 +42,14 @@ function View () {
   return <div>Home {state.count} <button onClick={() => actions.INCREASE()}>Increate</button></div>
 }
 
-const Home = createPage(() => [View, store])
+const Home = createPage(() => {
+  useWillCreate(() => {
+    console.log('useWillCreate')
+  })
+  useDidMount(() => {
+    console.log('useDidMount')
+  })
+  return [View, store]
+})
 
 export default Home
