@@ -2,6 +2,7 @@ import React from 'react'
 import { createPage } from 'react-torch/page'
 import { createStore } from 'react-torch/store'
 import { useWillCreate, useDidMount } from 'react-torch/hook'
+import './style.css'
 
 export type State = {
   count: number
@@ -39,7 +40,7 @@ const store = createStore(initialState, actions)
 function View () {
   const state = store.state
   const actions = store.actions
-  return <div>Home {state.count} <button onClick={() => actions.INCREASE()}>Increate</button></div>
+  return <div className='test'>Home {state.count} <button onClick={() => actions.INCREASE()}>Increate</button></div>
 }
 
 const Home = createPage(() => {
