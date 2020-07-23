@@ -1,6 +1,4 @@
-import path from 'path'
 import start from 'react-torch/start'
+import config from './torch.config'
 
-start({
-  dir: path.resolve(__dirname)
-})
+start(config)
