@@ -1,6 +1,5 @@
 import React from 'react'
-import { createPage } from 'react-torch/page'
-import { createStore } from 'react-torch/store'
+import { createPage, createStore } from 'react-torch'
 
 export type State = {
   count: number

@@ -32,7 +32,7 @@
   },
   "include": [
     "src",
-    "mdlw",
+    "middleware",
     "app.ts"
   ]
 }
