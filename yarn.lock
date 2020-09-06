@@ -5795,10 +5795,10 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-torch@1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/react-torch/-/react-torch-1.8.1.tgz#7971c12b03966e979b9e93e8954d177f5f4e7253"
-  integrity sha512-4SObLzccx1kkC2aR2+xsBShAUdUCFGIuECEm68NIjjlwHplc01hWoYhwrgr/BGMdW0Til46BfH6nzKPsg291EQ==
+react-torch@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/react-torch/-/react-torch-1.8.2.tgz#faad28e1e037db2bb1608a70acb735efe73b4724"
+  integrity sha512-/oF2rT9/gQU9Oz9k6mPCJiq+B1SmYWCMbw2OrsYwY5PFCVisreafhkpBrqbRR6ty2wCkjh/nk2sYJ69nvHZeoQ==
   dependencies:
     "@babel/core" "^7.10.5"
     "@babel/plugin-proposal-decorators" "^7.10.5"
