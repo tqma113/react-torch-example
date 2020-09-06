@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "torch dev",
     "build": "torch build",
-    "start": "torch start",
+    "start": "npm run dev",
+    "serve": "torch start",
     "help": "torch --help",
     "cm:start": "tsc app.ts",
     "version": "torch --version"
