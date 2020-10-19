@@ -8,6 +8,7 @@
     "build": "torch build",
     "start": "npm run dev",
     "serve": "torch start",
+    "debug": "node --inspect-brk node_modules/.bin/torch dev",
     "help": "torch --help",
     "cm:start": "tsc app.ts",
     "version": "torch --version"
@@ -28,7 +29,8 @@
     "@types/react-dom": "^16.9.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-torch": "^1.7.2",
+    "react-torch": "^1.10.5",
+    "redux": "^4.0.5",
     "typescript": "^3.9.7"
   }
 }

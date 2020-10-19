@@ -1,45 +1,13 @@
 import React from 'react'
-import { createPage } from 'react-torch/page'
-import { createStore } from 'react-torch/store'
-import './style.css'
-
-export type State = {
-  count: number
-}
-
-export type Actions = typeof actions
-
-const initialState: State = {
-  count: 0
-}
-
-const actions = {
-  UPDATE_COUNT(state: State, nextCount: number) {
-    return {
-      ...state,
-      count: nextCount
-    }
-  },
-  INCREASE(state: State) {
-    return {
-      ...state,
-      count: state.count + 1
-    }
-  },
-  DECREASE(state: State) {
-    return {
-      ...state,
-      count: state.count - 1
-    }
-  },
-}
-
-const store = createStore(initialState, actions)
+import { createPage } from 'react-torch'
+import store from './store'
 
 function View () {
-  const state = store.state
-  const actions = store.actions
-  return <div className='test'>Home {state.count} <button onClick={() => actions.INCREASE()}>Increate</button></div>
+  const state = store.getState()
+  const INCREASE = () => {
+    store.dispatch({ type: 'INCREMENT' })
+  }
+  return <div className='test'>Home {state} <button onClick={() => INCREASE()}>Increate</button></div>
 }
 
 const Home = createPage(() => {
