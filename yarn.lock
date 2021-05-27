@@ -1828,10 +1828,10 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-torch@1.17.0-alpha.3:
-  version "1.17.0-alpha.3"
-  resolved "https://registry.npmjs.org/react-torch/-/react-torch-1.17.0-alpha.3.tgz#3b042fe86a287e93563fef735840e38e716a8914"
-  integrity sha512-B1rLtZOjT3vHhXFSuPJ+oPumBSM4hGZMvgaSJcR1ucez/LTZINVvgxAsle3MYorlw7XbQbkxtGkPqNRNksN8ug==
+react-torch@1.17.0-alpha.4:
+  version "1.17.0-alpha.4"
+  resolved "https://registry.npmjs.org/react-torch/-/react-torch-1.17.0-alpha.4.tgz#83889d7ed538f38c6191f60aab375c80c70c3fc5"
+  integrity sha512-aZ5AG5chRb+KS/BjgUMp9/5OA/ajga5qlHonMMILGaY8mDDKOHeMdxK34ZbD6I9nW8V0hmufHzRPUnWYyZMCNw==
   dependencies:
     address "^1.1.2"
     body-parser "^1.19.0"

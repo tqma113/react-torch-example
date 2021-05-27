@@ -31,7 +31,7 @@
     "@types/webpack-bundle-analyzer": "^4.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-torch": "1.17.0-alpha.3",
+    "react-torch": "1.17.0-alpha.4",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "typescript": "^4.0.2",
