@@ -19,6 +19,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "removeComments": false,
+    "downlevelIteration": true,
     "jsx": "react",
     "lib": [
       "esnext",
