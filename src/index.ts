@@ -1,10 +1,24 @@
-export default [
+import type { Route } from 'react-torch/client'
+
+const routes: Route[] = [
   {
     path: '/',
-    module: () => import('./Home')
+    module: {
+      pageCreater: () => import('./Home'),
+    },
   },
   {
     path: '/about',
-    module: () => import('./About')
-  }
+    module: {
+      pageCreater: () => import('./About'),
+    },
+  },
+  {
+    path: '/test',
+    module: {
+      pageCreater: () => import('./Test'),
+    },
+  },
 ]
+
+export default routes
