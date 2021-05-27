@@ -15,8 +15,9 @@ function counter() {
 }
 
 const About = createPage(({ history, context }) => {
-  const { count, inc, dec } = useModel(counter)
   const View = () => {
+    const { count, inc, dec } = useModel(counter)
+    
     return (
       <div>
         <div>{count}</div>
